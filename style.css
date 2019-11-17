@@ -1,0 +1,20 @@
+body { 
+    background: url("silver-and-black-laptop-computer-1229861.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+#header {
+    padding: 2%;
+}
+
+#paul-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 20%;
+  
+}
