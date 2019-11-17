@@ -6,15 +6,54 @@ body {
     background-size: cover;
   }
 
+
 #header {
     padding: 2%;
+    border-bottom: solid black 2px;
+
 }
 
-#paul-photo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-  width: 20%;
-  
+
+
+#picBackground {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  Margin-top: 4%;
+  margin-bottom: 10%;
+  background: #333333;
+  border: solid 1px white;
+}
+
+#photo {
+  margin-left: 30%;
+  margin-bottom: 5%;
+  border: solid 1px white;
+}
+
+#sticky-footer {
+    background:#d9d9d9;
+    position: fixed;
+    height: 70px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    margin-top: 10%;
+    
+}
+
+.paragraph {
+  color: white;
+
+}
+
+
+
+h1 {
+  text-align: center;
+  color: #d9d9d9;
 }
