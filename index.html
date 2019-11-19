@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/9a2fe52a8f.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 
     <title>Paul Hollwedel About Me</title>
@@ -14,22 +15,29 @@
 
 <header id="nav-bar">
   <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light navbar-static-top">
-      <button type="button" class="btn btn-light">Paul Hollwedel</button>
+      <button type="button" id="homePage" class="btn btn-light">Paul Hollwedel</button>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <button type="button" class="aboutMe bt-lg btn btn-light">My Work</button>
+          <button type="button" id="myWork" class="bt-lg btn btn-light">My Work</button>
         </li>
         <li class="nav-item">
-          <button type="button" id="myWork" class="btn btn-light">About Me</button>
+          <button type="button" id="aboutMe" class="btn btn-light">About Me</button>
         </li>
       </ul>
+    </div>
+    <div>
+      <a  id="linkedin-button social-button" class="btn socialButtons btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/paul-hollwedel-a3759659/">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+      <a id="github-button social-button" class="btn btn-social-icon btn-github" href="https://github.com/paulchollwedel">
+      <i class="fab fa-github-square fa-2x"></i>
+    </a>
     </div>
   </nav>
 </header>
@@ -37,18 +45,17 @@
 
 <body>
   
-  <div id="paulPhoto" class="">
+  <div id="paulPhoto">
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="script.js"></script>
 </body>
 
-<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+<footer id="sticky-footer" class="py-4 text-white-50">
     <div class="container text-center">
-      <small>Copyright &copy; Your Website</small>
-      
+      <small>Copyright &copy; Paul Hollwedel</small>
     </div>
-  </footer>
+</footer>
 
 </html>
